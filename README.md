@@ -6,20 +6,21 @@ Project Description
 This project creates a task management system using a text file in a Git repository, applying key Git concepts such as branching, merging, and rebasing.
 Project Requirements
 
-1. Set Up the Repository
+# Set Up the Repository
 
 git init task-manager
 cd task-manager
 touch tasks.txt
 * Initializes a Git repository and creates tasks.txt.
-2. Add Initial Tasks
+
+# Add Initial Tasks
 
 echo "- Learn Git basics" >> tasks.txt
 echo "- Set up Git repository" >> tasks.txt
 git add tasks.txt
 git commit -m "Add initial tasks"
 * Adds initial tasks and commits them.
-3. Create Branches and Work on Features
+# Create Branches and Work on Features
 
 git checkout -b feature/add-tasks
 # Add more tasks
