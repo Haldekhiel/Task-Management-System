@@ -1,10 +1,13 @@
 
 Simple Task Management System Using Git
+
 Project Description
+
 This project creates a task management system using a text file in a Git repository, applying key Git concepts such as branching, merging, and rebasing.
 Project Requirements
+
 1. Set Up the Repository
-2. 
+
 git init task-manager
 cd task-manager
 touch tasks.txt
